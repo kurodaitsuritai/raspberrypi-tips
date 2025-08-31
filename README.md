@@ -7,7 +7,7 @@ RaspberryPiに関する諸々のこと
 
 * [起動時のロゴ画像を変更する](./change_startup_logo/readme.md)
 
-* ツールバーの「スタート」アイコンを変更する
+* [ツールバーの「スタート」アイコンを変更する](./change_start_icons/readme.md)
 
 * ROM化/ROM化解除を行う
 
