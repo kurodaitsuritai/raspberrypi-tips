@@ -1,3 +1,6 @@
+# カレントディレクトリの変更
+cd `dirname $0`
+
 # アイコンのコピー
 # 16x16
 sudo mv /usr/share/icons/PiXflat/16x16/places/rpi-logo.png /usr/share/icons/PiXflat/16x16/places/_rpi-logo.png
