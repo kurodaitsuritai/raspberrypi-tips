@@ -5,7 +5,7 @@ RaspberryPiに関する諸々のこと
 
 * [起動時にNumLockを有効化する](./numlock_on_boot/readme.md)
 
-* 起動時のロゴ画像を変更する
+* [起動時のロゴ画像を変更する](./change_startup_logo/readme.md)
 
 * ツールバーの「スタート」アイコンを変更する
 
