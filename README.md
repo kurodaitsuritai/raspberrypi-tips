@@ -13,7 +13,7 @@ RaspberryPiに関する諸々のこと
 
 * ROM化/ROM化解除を行う
 
-* 「Sony Pasori（RC-S380）」を使う
+* [「Sony Pasori（RC-S380）」を使う](./pasori/readme.md)
 
 * 「Sumeber QRコードリーダー」を使う
 
