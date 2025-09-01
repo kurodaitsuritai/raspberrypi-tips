@@ -1,6 +1,8 @@
 # raspberrypi-tips
 RaspberryPiに関する諸々のこと
 
+* [SDカードの焼きこみ](./raspberrypiimager/readme.md)
+
 * [アプリケーションの自動起動](./autostart/readme.md)
 
 * [起動時にNumLockを有効化する](./numlock_on_boot/readme.md)
