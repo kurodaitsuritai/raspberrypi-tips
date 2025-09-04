@@ -1,5 +1,24 @@
 # 特定のUSBシリアルのデバイスファイル名を取得する
 
+## lsusb
+
+* lsusbの結果は以下のようになっているとする。
+
+```
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 002: ID 324f:0032 SM SM-2D PRODUCT USB UART
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 003: ID 04b4:00f1 Cypress Semiconductor Corp. FX3
+Bus 002 Device 002: ID 2109:0812 VIA Labs, Inc. VL812 Hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 003: ID 16c0:0483 Van Ooijen Technische Informatica Teensyduino Serial
+Bus 001 Device 006: ID 03f0:134a HP, Inc Optical Mouse
+Bus 001 Device 005: ID 03f0:334a HP, Inc HP Business Slim Keyboard
+Bus 001 Device 004: ID 0403:6015 Future Technology Devices International, Ltd Bridge(I2C/SPI/UART/FIFO)
+Bus 001 Device 002: ID 2109:2812 VIA Labs, Inc. VL812 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
+
 ## grep, cutを利用する
 
 ```
