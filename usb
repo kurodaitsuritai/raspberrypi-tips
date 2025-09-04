@@ -1,0 +1,50 @@
+P: [0;1;37m/devices/platform/axi/1000120000.pcie/1f00200000.usb/xhci-hcd.0/usb1/1-2/1-2:1.0/tty/ttyACM1[0m
+M: [0;1;37mttyACM1[0m
+R: [0;1;37m1[0m
+U: [0;1;32mtty[0m
+D: [0;1;36mc 166:1[0m
+N: [0;1;36mttyACM1[0m
+L: [0;1;36m0[0m
+S: [0;1;36mserial/by-id/usb-Teensyduino_USB_Serial_15218520-if00[0m
+S: [0;1;36mserial/by-path/platform-xhci-hcd.0-usb-0:2:1.0[0m
+E: DEVPATH=/devices/platform/axi/1000120000.pcie/1f00200000.usb/xhci-hcd.0/usb1/1-2/1-2:1.0/tty/ttyACM1
+E: DEVNAME=/dev/ttyACM1
+E: MAJOR=166
+E: MINOR=1
+E: SUBSYSTEM=tty
+E: USEC_INITIALIZED=5217606
+E: ID_BUS=usb
+E: ID_MODEL=USB_Serial
+E: ID_MODEL_ENC=USB\x20Serial
+E: ID_MODEL_ID=0483
+E: ID_SERIAL=Teensyduino_USB_Serial_15218520
+E: ID_SERIAL_SHORT=15218520
+E: ID_VENDOR=Teensyduino
+E: ID_VENDOR_ENC=Teensyduino
+E: ID_VENDOR_ID=16c0
+E: ID_REVISION=0279
+E: ID_TYPE=generic
+E: ID_USB_MODEL=USB_Serial
+E: ID_USB_MODEL_ENC=USB\x20Serial
+E: ID_USB_MODEL_ID=0483
+E: ID_USB_SERIAL=Teensyduino_USB_Serial_15218520
+E: ID_USB_SERIAL_SHORT=15218520
+E: ID_USB_VENDOR=Teensyduino
+E: ID_USB_VENDOR_ENC=Teensyduino
+E: ID_USB_VENDOR_ID=16c0
+E: ID_USB_REVISION=0279
+E: ID_USB_TYPE=generic
+E: ID_USB_INTERFACES=:020201:0a0000:ff6ac7:
+E: ID_USB_INTERFACE_NUM=00
+E: ID_USB_DRIVER=cdc_acm
+E: ID_USB_CLASS_FROM_DATABASE=Miscellaneous Device
+E: ID_USB_PROTOCOL_FROM_DATABASE=Interface Association
+E: ID_VENDOR_FROM_DATABASE=Van Ooijen Technische Informatica
+E: ID_MODEL_FROM_DATABASE=Teensyduino Serial
+E: ID_PATH=platform-xhci-hcd.0-usb-0:2:1.0
+E: ID_PATH_TAG=platform-xhci-hcd_0-usb-0_2_1_0
+E: ID_MM_CANDIDATE=1
+E: DEVLINKS=/dev/serial/by-id/usb-Teensyduino_USB_Serial_15218520-if00 /dev/serial/by-path/platform-xhci-hcd.0-usb-0:2:1.0
+E: TAGS=:systemd:
+E: CURRENT_TAGS=:systemd:
+
