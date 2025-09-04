@@ -15,7 +15,7 @@ RaspberryPiに関する諸々のこと
 
 * [「Sony Pasori（RC-S380）」を使う](./pasori/readme.md)
 
-* 「Sumeber QRコードリーダー」を使う
+* Sunmi Blink(QRコードリーダー)」を使う
 
 * [特定のUSBシリアルのデバイスファイル名を取得する](./get_usb_serial_device_filename/readme.md)
 
