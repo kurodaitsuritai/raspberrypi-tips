@@ -17,7 +17,7 @@ RaspberryPiに関する諸々のこと
 
 * 「Sumeber QRコードリーダー」を使う
 
-
+* [特定のUSBシリアルのデバイスファイル名を取得する](./get_usb_serial_device_filename/readme.md)
 
 
 
