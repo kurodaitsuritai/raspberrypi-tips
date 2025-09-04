@@ -19,5 +19,5 @@ RaspberryPiに関する諸々のこと
 
 * [特定のUSBシリアルのデバイスファイル名を取得する](./get_usb_serial_device_filename/readme.md)
 
-
+* [起動後、インターネット接続が確立されるまで待機する](./wait_internet_connection/readme.md)
 
