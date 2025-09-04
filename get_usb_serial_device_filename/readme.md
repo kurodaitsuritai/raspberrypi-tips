@@ -47,7 +47,7 @@ ttyACM0
 
 ## C++での実装例
 
-```cpp:UsbSerialDeviceFileName.h
+```cpp UsbSerialDeviceFileName.h
 
 #ifndef USBSERIALDEVICEFILENAME_H
 #define USBSERIALDEVICEFILENAME_H
@@ -69,7 +69,7 @@ private:
 
 ```
 
-```cpp:UsbSerialDeviceFileName.cpp
+```cpp UsbSerialDeviceFileName.cpp
 #include "UsbSerialDeviceFileName.h"
 
 wxString UsbSerialDeviceFileName::shell(wxString cmd)
