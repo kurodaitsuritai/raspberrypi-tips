@@ -13,9 +13,9 @@ RaspberryPiに関する諸々のこと
 
 * ROM化/ROM化解除を行う
 
-* [「Sony Pasori（RC-S380）」を使う](./pasori/readme.md)
+* [Sony Pasori（RC-S380）を使う](./pasori/readme.md)
 
-* Sunmi Blink(QRコードリーダー)」を使う
+* [Sunmi Blink(QRコードリーダー)」を使う](./sunmi_blink/readme.md)
 
 * [特定のUSBシリアルのデバイスファイル名を取得する](./get_usb_serial_device_filename/readme.md)
 
