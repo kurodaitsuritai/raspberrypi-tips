@@ -1,20 +1,3 @@
-# 「Sony Pasori（RC-S380）」を使う
-
-## nfcpyをインストールする
-
-```
-sudo pip3 install nfcpy --break-system-pacakges
-
-sudo sh -c 'echo SUBSYSTEM==\"usb\", ACTION==\"add\", ATTRS{idVendor}==\"054c\", ATTRS{idProduct}==\"06c1\", GROUP=\"plugdev\" >> /etc/udev/rules.d/nfcdev.rules'
-
-sudo sh -c 'echo SUBSYSTEM==\"usb\", ACTION==\"add\", ATTRS{idVendor}==\"054c\", ATTRS{idProduct}==\"06c3\", GROUP=\"plugdev\" >> /etc/udev/rules.d/nfcdev.rules'
-
-sudo udevadm control -R
-```
-
-## 使用例
-
-```
 import nfc
 import nfc.tag.tt3
 import nfc.tag.tt4
@@ -98,7 +81,3 @@ def thread_func():
 
 thread_nfc = threading.Thread(target=thread_func)
 thread_nfc.start()
-```
-
-
-
