@@ -5,6 +5,8 @@ RaspberryPiに関する諸々のこと
 
 * [アプリケーションの自動起動](./autostart/readme.md)
 
+* [シリアル番号等を取得する](./get_serial_number/readme.md)
+
 * [起動時にNumLockを有効化する](./numlock_on_boot/readme.md)
 
 * [起動時のロゴ画像を変更する](./change_startup_logo/readme.md)
