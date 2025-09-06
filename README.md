@@ -21,3 +21,4 @@ RaspberryPiに関する諸々のこと
 
 * [起動後、インターネット接続が確立されるまで待機する](./wait_internet_connection/readme.md)
 
+* [時刻を合わせる](./set_time/readme.md)
