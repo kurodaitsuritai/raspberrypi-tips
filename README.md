@@ -11,7 +11,7 @@ RaspberryPiに関する諸々のこと
 
 * [ツールバーの「スタート」アイコンを変更する](./change_start_icons/readme.md)
 
-* ROM化/ROM化解除を行う
+* [ROM化/ROM化解除を行う](./overlayfs/readme.md)
 
 * [Sony Pasori（RC-S380）を使う](./pasori/readme.md)
 
