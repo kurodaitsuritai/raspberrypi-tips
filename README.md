@@ -3,6 +3,8 @@ RaspberryPiに関する諸々のこと
 
 * [SDカードの焼きこみ](./raspberrypiimager/readme.md)
 
+* [日本語入力]()
+
 * [アプリケーションの自動起動](./autostart/readme.md)
 
 * [シリアル番号等を取得する](./get_serial_number/readme.md)
