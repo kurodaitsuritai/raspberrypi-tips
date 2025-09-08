@@ -3,7 +3,7 @@ RaspberryPiに関する諸々のこと
 
 * [SDカードの焼きこみ](./raspberrypiimager/readme.md)
 
-* [日本語入力]()
+* [日本語入力](./input_japanese/readme.md)
 
 * [アプリケーションの自動起動](./autostart/readme.md)
 
