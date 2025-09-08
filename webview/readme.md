@@ -12,4 +12,6 @@ sudo apt-get install libwxgtk-webview3.2-dev
 `wx-config --libs std webview`
 ```
 
+### 注意事項
 
+* x11の場合は特に問題はないが、wayland-labwcの場合は、webviewの親をリサイズしないと正常に表示されない。
