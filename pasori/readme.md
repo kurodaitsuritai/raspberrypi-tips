@@ -1,6 +1,55 @@
-# 「Sony Pasori（RC-S380）」を使う
+# 「Sony Pasori」を使う
 
-## nfcpyをインストールする
+
+
+
+## RC-S300 の場合
+
+### pyscardをインストールする
+
+```
+sudo apt install libusb-dev libpcsclite-dev opensc pcscd pcsc-tools
+
+pip install pyscard --break-system-pacakges
+```
+
+
+### 使用例
+
+```
+from smartcard.util import toHexString
+from smartcard.System import readers as get_readers
+import time
+
+readers = get_readers()
+print(readers)
+
+while True:
+    try:
+        conn = readers[0].createConnection()
+        conn.connect()
+
+        send_data = [0xFF, 0xCA, 0x00, 0x00, 0x00]
+        recv_data, sw1, sw2 = conn.transmit(send_data)
+        
+        print(toHexString(recv_data))
+        break
+    except:
+        time.sleep(0.1)
+```
+
+
+
+### 参考
+
+* [PaSoRi RC-S300をPythonで扱う](https://qiita.com/tomo_9180/items/5305a888e373416af5d2)
+
+
+
+
+## RC-S380 の場合
+
+### nfcpyをインストールする
 
 ```
 sudo pip3 install nfcpy --break-system-pacakges
@@ -12,7 +61,7 @@ sudo sh -c 'echo SUBSYSTEM==\"usb\", ACTION==\"add\", ATTRS{idVendor}==\"054c\",
 sudo udevadm control -R
 ```
 
-## 使用例
+### 使用例
 
 ```
 import nfc

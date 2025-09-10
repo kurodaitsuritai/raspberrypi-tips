@@ -17,7 +17,7 @@ RaspberryPiに関する諸々のこと
 
 * [ROM化/ROM化解除を行う](./overlayfs/readme.md)
 
-* [Sony Pasori（RC-S380）を使う](./pasori/readme.md)
+* [Sony Pasoriを使う](./pasori/readme.md)
 
 * [Sunmi Blink(QRコードリーダー)」を使う](./sunmi_blink/readme.md)
 
