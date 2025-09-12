@@ -10,8 +10,9 @@ class MainFrame : public wxFrame
         virtual ~MainFrame();
 
     protected:
-
+        void OnShow(wxShowEvent& e);
     private:
+        void Test();
         wxString shell(wxString cmd);
 };
 

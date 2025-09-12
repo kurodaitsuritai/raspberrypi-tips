@@ -1665,3 +1665,17 @@
 1757605518 /home/pi/pasori380/App.h
 	<wx/wx.h>
 
+1757636490 source:/home/pi/raspberrypi-tips/pasori/src/cpp/pasori380/App.cpp
+	"App.h"
+	"MainFrame.h"
+
+1757636490 /home/pi/raspberrypi-tips/pasori/src/cpp/pasori380/App.h
+	<wx/wx.h>
+
+1757637044 /home/pi/raspberrypi-tips/pasori/src/cpp/pasori380/MainFrame.h
+	<wx/wx.h>
+
+1757642971 source:/home/pi/raspberrypi-tips/pasori/src/cpp/pasori380/MainFrame.cpp
+	"MainFrame.h"
+	<wx/textfile.h>
+

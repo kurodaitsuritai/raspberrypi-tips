@@ -1,7 +1,25 @@
 #include "MainFrame.h"
 
+#include <wx/textfile.h>
+
 MainFrame::MainFrame():
     wxFrame(nullptr, wxID_ANY, wxT("RC-S380"))
+{
+    this->Bind(wxEVT_SHOW, &MainFrame::OnShow, this);
+
+}
+
+MainFrame::~MainFrame()
+{
+    //dtor
+}
+
+void MainFrame::OnShow(wxShowEvent& e)
+{
+    Test();
+}
+
+void MainFrame::Test()
 {
     // スクリプト
     wxString src = wxT(R"(
@@ -24,13 +42,14 @@ class CardReader(object):
     self.T106B = nfc.clf.RemoteTarget('106B')
 
     # FeliCa
+    self.lites = self.set_felica('88B4')
     self.suica = self.set_felica('0003')
     self.edy = self.set_felica('8054')
     self.express = self.set_felica('854C')
     self.nanaco = self.set_felica('04C7')
     self.waon = self.set_felica('684F')
 
-    self.targets = [ self.suica, self.T106A, self.T106B, self.edy, self.express, self.nanaco, self.waon ]
+    self.targets = [ self.lites, self.suica, self.T106A, self.T106B, self.edy, self.express, self.nanaco, self.waon ]
     self.targets1 = [ self.suica, self.T106A, self.T106B ]
     self.targets2 = [ self.T106A, self.T106B, self.set_felica() ]
 
@@ -113,7 +132,18 @@ if __name__ == '__main__':
   main()
 )");
 
+//    src = wxT(R"(print('idm: 1234567890123456'))");
+
+    wxString fileName = wxT("/home/pi/dump.py");
+    wxTextFile t(fileName);
+    t.Create();
+    t.AddLine(src);
+    t.Write();
+    t.Close();
+
     wxString command = wxString::Format(wxT("sudo python -u -c \"%s\" | grep -i 'idm' | cut -d':' -f2 | xargs"), src);
+
+
 
     for(int i=0 ; i<100 ; i++)
     {
@@ -127,13 +157,6 @@ if __name__ == '__main__':
         }
         usleep(100000);
     }
-
-
-}
-
-MainFrame::~MainFrame()
-{
-    //dtor
 }
 
 wxString MainFrame::shell(wxString cmd)
