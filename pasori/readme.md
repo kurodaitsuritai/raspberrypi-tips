@@ -58,6 +58,51 @@ for reader in readers():
 ```
 
 
+### 使用例3(C++)
+
+```
+    // スクリプト
+    wxString src = wxT(R"(
+import sys
+import time
+
+from smartcard.Exceptions import NoCardException
+from smartcard.System import readers
+from smartcard.util import toHexString
+
+while True:
+    for reader in readers():
+        try:
+            connection = reader.createConnection()
+            connection.connect()
+            send_data = [0xFF, 0xCA, 0x00, 0x00, 0x00]
+            data, sw1, sw2 = connection.transmit(send_data)
+            print('IDm:', toHexString(data).replace(' ', ''))
+            connection.disconnect()
+            connection.release()
+        except NoCardException:
+            pass
+            #print(reader, 'no card inserted')
+    time.sleep(0.1)
+)");
+
+    wxString command = wxString::Format(wxT("python -u -c \"%s\" | grep -i 'idm' | cut -d':' -f2 | xargs"), src);
+
+    for(int i=0 ; i<1000 ; i++)
+    {
+        wxString ret = shell(command);
+        ret = ret.Trim();
+        if( !ret.empty())
+        {
+            this->SetTitle(ret);
+            break;
+        }
+        usleep(100000);
+    }
+```
+
+
+
 ### 参考
 
 * [PaSoRi RC-S300をPythonで扱う](https://qiita.com/tomo_9180/items/5305a888e373416af5d2)
