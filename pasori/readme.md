@@ -14,7 +14,7 @@ pip install pyscard --break-system-packages
 ```
 
 
-### 使用例
+### 使用例1
 
 ```
 from smartcard.util import toHexString
@@ -38,6 +38,24 @@ while True:
         time.sleep(0.1)
 ```
 
+
+### 使用例2
+
+```
+from smartcard.Exceptions import NoCardException
+from smartcard.System import readers
+from smartcard.util import toHexString
+
+for reader in readers():
+    try:
+        connection = reader.createConnection()
+        connection.connect()
+        print(reader, toHexString(connection.getATR()))
+        connection.disconnect()
+        connection.release()
+    except NoCardException:
+        print(reader, "no card inserted")
+```
 
 
 ### 参考
