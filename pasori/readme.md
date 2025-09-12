@@ -10,7 +10,7 @@
 ```
 sudo apt install libusb-dev libpcsclite-dev opensc pcscd pcsc-tools
 
-pip install pyscard --break-system-pacakges
+pip install pyscard --break-system-packages
 ```
 
 
