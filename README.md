@@ -32,3 +32,5 @@ RaspberryPiに関する諸々のこと
 * [Webviewを使用する](./webview/readme.md)
 
 * [x11/wayland](./x11_wayland/readme.md)
+
+* [実行ファイルにPNGファイルを埋め込む](./embed_png/readme.md)
