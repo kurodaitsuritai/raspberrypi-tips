@@ -1,6 +1,31 @@
 # アプリケーションの自動起動
 
-* Raspberry Pi 5 Bookworm 64bit x11環境の場合
+* Raspberry Pi 5 Bookworm 64bitの場合
+
+## wayland - labwc環境の場合
+
+```
+nano ~/.config/labwc/autostart
+```
+
+* 実行ファイルのパスを記述する
+
+
+## wayland - wayfire環境の場合
+
+```
+nano ~/.config/wayfire.ini
+```
+
+```
+[autostart]
+app=実行ファイルのパス
+```
+* 「app」の部分は何か適当な文字列でよい。
+
+
+
+## x11環境の場合
 
 ```
 mkdir -p ~/.config/lxsession/LXDE-pi
