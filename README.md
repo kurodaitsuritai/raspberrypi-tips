@@ -34,3 +34,5 @@ RaspberryPiに関する諸々のこと
 * [x11/wayland](./x11_wayland/readme.md)
 
 * [実行ファイルにPNGファイルを埋め込む](./embed_png/readme.md)
+
+* [RTCバッテリーの充電設定を行う](./rtc_battery/readme.md)
