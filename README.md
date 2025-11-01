@@ -5,6 +5,8 @@ RaspberryPiに関する諸々のこと
 
 * [日本語入力](./input_japanese/readme.md)
 
+* [キーバインドの変更](./keybind/readme.md)
+
 * [アプリケーションの自動起動](./autostart/readme.md)
 
 * [シリアル番号等を取得する](./get_serial_number/readme.md)
