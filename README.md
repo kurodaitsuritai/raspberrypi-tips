@@ -38,3 +38,5 @@ RaspberryPiに関する諸々のこと
 * [実行ファイルにPNGファイルを埋め込む](./embed_png/readme.md)
 
 * [RTCバッテリーの充電設定を行う](./rtc_battery/readme.md)
+
+* [pyenvを導入する](./pyenv)
