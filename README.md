@@ -39,4 +39,6 @@ RaspberryPiに関する諸々のこと
 
 * [RTCバッテリーの充電設定を行う](./rtc_battery/readme.md)
 
-* [pyenvを導入する](./pyenv)
+* [pyenvを導入する](./pyenv/readme.md)
+
+* [mediapipeを使用する](./mediapipe/readme.md)
