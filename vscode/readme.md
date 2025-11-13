@@ -9,7 +9,7 @@ sudo apt-get install code
 
 ## XSERVERに接続する必要がある場合
 
-* ブラウザでVer.1.85.1をダウンロードして、インストールする。
+* ブラウザで[Ver.1.85.1](https://update.code.visualstudio.com/1.85.1/linux-deb-arm64/stable)をダウンロードして、インストールする。
 
 ```
 https://update.code.visualstudio.com/1.85.1/linux-deb-arm64/stable
