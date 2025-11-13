@@ -6,7 +6,7 @@
 sh setup_pyenv.sh
 
 # .bashrcの設定を現在のシェルに反映させる
-source .bashrc
+source ~/.bashrc
 
 # python 3.12.0 のインストール
 # 依存関係

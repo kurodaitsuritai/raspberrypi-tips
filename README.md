@@ -42,3 +42,5 @@ RaspberryPiに関する諸々のこと
 * [pyenvを導入する](./pyenv/readme.md)
 
 * [mediapipeを使用する](./mediapipe/readme.md)
+
+* [vscodeを使用する](./vscode/readme.md)
