@@ -13,19 +13,19 @@ lsblk -p
 ## SDカード から イメージファイル を抽出する
 
 ```
-dd
+sudo dd if=/dev/sdb of=2026-06-29-sbrange-dev.img bs=1M status=progress
 ```
 
 ## pishrinkを用いて、イメージファイルを圧縮する
 
 ```
-pishrink
+sudo pishrink.sh 2026-06-29-sbrange-dev.img
 ```
 
 ## 圧縮されたイメージファイルをSDカードに焼きこむ
 
 ```
-dd
+sudo dd if=./2026-09-29-sbrange-dev.img of=/dev/sdb bs=4m status=progress
 ```
 
 ## 参考
