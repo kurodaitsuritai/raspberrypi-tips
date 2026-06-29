@@ -1,6 +1,8 @@
 # raspberrypi-tips
 RaspberryPiに関する諸々のこと
 
+* [SDカード・イメージの圧縮](./pishrink/readme.md)
+
 * [SDカードの焼きこみ](./raspberrypiimager/readme.md)
 
 * [日本語入力](./input_japanese/readme.md)
