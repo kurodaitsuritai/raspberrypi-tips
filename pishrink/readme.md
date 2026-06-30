@@ -33,6 +33,13 @@ sudo pishrink.sh 2026-06-29-sbrange-dev.img
 ## 圧縮されたイメージファイルをSDカードに焼きこむ
 
 ```
+# マウントを解除する
+sudo umount /dev/sdb1
+
+# フォーマットする
+sudo mkfs.ext4 /dev/sdb1
+
+# イメージを書き込む
 sudo dd if=./2026-09-29-sbrange-dev.img of=/dev/sdb bs=4m status=progress
 ```
 
